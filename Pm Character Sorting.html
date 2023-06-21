@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en"><head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta name="author" content="GoldThe1andOnly">
+  <meta name="description" content="Project Moon Character Sorting">
+  <meta name="keywords" content="Project Moon">
+  <meta name="generator" content="notepad"><title>Project Moon Character Sorting</title>  
+  
+  <noscript></noscript><script type="text/javascript" src="Pm%20Character%20Sorting_files/mod_k-factory.js"></script>  
+  <script type="text/javascript" src="Pm%20Character%20Sorting_files/fnc_main_v3.js"></script>
+  <script type="text/javascript" src="Pm%20Character%20Sorting_files/fnc_data_v2.js"></script>
+  <script type="text/javascript" src="Pm%20Character%20Sorting_files/op.js"></script>
+  <link rel="stylesheet" type="text/css" href="Pm%20Character%20Sorting_files/tcs_style.css">
+  <style type="text/css">
+
+<!--
+.style4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: normal;
+	font-size: 11px;
+}
+a:link {
+	color: #990000;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:visited {
+	text-decoration: none;
+	color: #6600FF;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF6600;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:active {
+	text-decoration: none;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+-->
+  </style>
+  </head><body onload="startup()" bgcolor="#808080"  >
+  <div class="style4" id="topPage" style="text-align:center;">
+    <p class="style7"> <font size="5"><b>WARNING: Contains Spoilers for all Project Moon media in the options.</font></b><br>
+	Last Updated: June 16th 2023
+    </p>
+  </div>
+<br>
+<br>
+  <div align="center">
+   <table id="mainTable" border="1" bordercolor="yellow">
+    <thead>
+     <tr>
+      <td colspan="5" class="tb_header">Battle No. <span id="lblCount">-</span><br>	
+       <span id="lblProgress">0</span>% sorted.<br>
+       <div align="center"><span id="GaGprog"></span></div>
+      </td>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td id="fldLeft" onclick="fnc_Sort(-1);" rowspan="2"><img src="https://i.imgur.com/U4twLSO.png"></td>
+	  <td style="border: 0px; width: 7px;" rowspan="2"></td>
+      <td id="fldMiddleT" onclick="fnc_Sort(0);"><p>Project Moon</p>
+        <p> Character Sorter</p></td>
+	  <td style="border: 0px; width: 7px;" rowspan="2"></td>
+      <td id="fldRight" onclick="fnc_Sort(1);" rowspan="2"><img src="https://i.imgur.com/bE1qEKD.png"></td>
+     </tr>
+     <tr>
+      <td id="fldMiddleB" onclick="fnc_Undo();">Click to start!</td>
+     </tr>
+    </tbody>
+    <tfoot>
+     <tr>
+      <td colspan="5"><div align="center">
+        <input id="optImage" checked="checked" type="checkbox">
+        <span class="tb_header">Display images while sorting.
+          
+        </span></div></td>
+     </tr>
+    </tfoot>
+
+   </table>
+  </div>
+  <br>
+   <table id="optTable1" align="center" width="1000" border="1" bordercolor="blue"><tbody>
+		<tr id="optSelRow0">
+			<td colspan="2"><input id="optSelect0" title="lobotomyChar" value="lobotomyChar" type="checkbox"><span class="cbox" id="0" title="lobotomyChar"><font size="2">Lobotomy Corporation Characters</font></span></td>
+			<td colspan="2"><input id="optSelect1" title="lobotomyAbno" value="lobotomyAbno" type="checkbox"><span class="cbox" id="1" title="lobotomyAbno"><font size="2">Lobotomy Corporation Abnormalities</font></span></td>
+			<td colspan="2"><input id="optSelect2" title="ruinaChar" value="ruinaChar" type="checkbox"><span class="cbox" id="2" title="ruinaChar"><font size="2">Library of Ruina Characters</font></span></td>
+			<td colspan="2"><input id="optSelect3" title="ruinaAbno" value="ruinaAbno" type="checkbox"><span class="cbox" id="3" title="ruinaAbno"><font size="2">Library of Ruina Abnormalities</font></span></td>
+			</tr>
+		<tr id="optSelRow3" >
+			<td colspan="2"><input id="optSelect6" title="wonderlabChar" value="wonderlabChar" type="checkbox"><span class="cbox" id="6" title="wonderlabChar"><font size="2">Limbus Company Characters</font></span></td>
+			<td colspan="2"><input id="optSelect7" title="wonderlabAbno" value="wonderlabAbno" type="checkbox"><span class="cbox" id="7" title="wonderlabAbno"><font size="2">Limbus Company Abnormalities</font></span></td>
+			<td colspan="2"><input id="optSelect4" title="limbusChar" value="limbusChar" type="checkbox"><span class="cbox" id="4" title="limbusChar"><font size="2">Wonderlab Characters</font></span></td>
+			<td colspan="2"><input id="optSelect5" title="limbusAbno" value="limbusAbno" type="checkbox"><span class="cbox" id="5" title="limbusAbno"><font size="2">Wonderlab Abnormalities</font></span></td>
+			<!--dont ask me why the limbus and wonderlab tags are messed up but this works on the actual page, go fix it yourself-->
+			</tr>
+		<tr id="optSelRow6" >
+			<td colspan="2"><input id="optSelect8" title="distortiondetectiveChar" value="distortiondetectiveChar" type="checkbox"><span class="cbox" id="8" title="distortiondetectiveChar"><font size="2">Distortion Detective Characters</font></span></td>
+			<td colspan="2"><input id="optSelect9" title="leviathanChar" value="leviathanChar" type="checkbox"><span class="cbox" id="9" title="leviathanChar"><font size="2">Leviathan Characters</font></span></td>
+			<td colspan="2"><input id="optSelect10" title="artbook" value="artbook" type="checkbox"><span class="cbox" id="10" title="artbook"><font size="2">Artbook Exclusives</font></span></td>
+			<td colspan="2"><input id="optSelect11" title="betaFan" value="betaFan" type="checkbox"><span class="cbox" id="11" title="betaFan"><font size="2">Beta Only/Fan Characters</font></span></td>
+			</tr>
+	</tbody>
+	</table>
+  <br>
+  <div id="ranTable" width="640px" class="tb" style="display:none;" align="center">
+<div>
+<form>
+	  <p class="style7">Refresh/Reload the page to begin sorting again.</p>
+      <input value="Raw Text Results" onclick="OpenWnd()" type="button">
+</form> 	
+</div>
+</div>
+  <div class="style4" id="resultField" style="text-align:center;">
+    <p class="style7"><font size="2">Sorter for Project Moon characters. Select the media sources you wish to include in the sorting, and click the Start button.<br>
+Click on the character you like better from the two, or tie them if you like them equally or don't know them.<br>
+There'll be a table at the end of the picks with your favorites sorted out, plus a button to click for raw text to copy and paste.<br>
+<br>
+<br>
+Seeing as there is no other sorter for Project Moon characters out there, we took the task to do it ourselves. <br>
+
+Made by <a href="https://twitter.com/GoldThe1andOnly">@GoldThe1andOnly</a> and <a href="https://twitter.com/KiwiBirdStrBrst">@KiwiBirdStrBrst</a><br>
+Contact either of us for Suggestions/Inquiries<br>
+Edited from the original code by <b>nkeronkow</b> on github @ <b><a href="https://github.com/nkeronkow/revised_touhou_sort">https://github.com/nkeronkow/revised_touhou_sort</a></b><br>
+<br>
+Characters and images on this page belong to Project Moon and their collaborators.<br>
+This is not an official site by Project Moon.<br>
+	</font>
+    </p>
+  </div>
+
+<p class="style7" style="text-align:center;">
+			<a href="https://store.steampowered.com/app/568220/Lobotomy_Corporation__Monster_Management_Simulation/"><img src="https://i.imgur.com/JiTVzkX.jpg" height="140" width="300"></a>
+			<a href="https://store.steampowered.com/app/1256670/Library_Of_Ruina/"><img src="https://i.imgur.com/H5qaXpV.jpg" height="140" width="300"></a>
+			<a href="https://store.steampowered.com/app/1973530/Limbus_Company/"><img src="https://i.imgur.com/cJnYy3B.jpg" height="140" width="300"></a>
+			<a href="https://projectmoon.postype.com/series/484033"><img src="https://i.imgur.com/YmN95h3.jpg" height="140" width="300"></a>
+			<a href="https://projectmoon.postype.com/series/491543"><img src="https://i.imgur.com/7XcuzUs.png" height="140" width="300"></a>
+			<a href="https://projectmoon.postype.com/series/875159"><img src="https://i.imgur.com/aBpcRML.jpg" height="140" width="300"></a>
+    </p>
+
+<script type="text/javascript" src="Pm%20Character%20Sorting_files/count.js"></script>
+<!-- End Of Analytics Code -->
+</body></html>
+<!-- Hosting24 Analytics Code -->

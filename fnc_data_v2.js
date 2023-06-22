@@ -282,6 +282,7 @@ var ary_CharacterData = [
    [1, "Renaud",                        [0,0,1,0,0,0,0,0,0,0,0,0], "eTaiEtz.png"],
    [1, "Ogier",                         [0,0,1,0,0,0,0,0,0,0,0,0], "uy0ItCF.png"],
    [1, "??? (The Bookhunter)",          [0,0,1,0,0,0,0,0,0,0,0,0], "HnJa8Er.png"],
+   [1, "The Pianist",                   [0,0,1,0,0,0,0,0,0,0,0,0], "qF321dt.png"],
    //Library of Ruina Abnormalities
    [1, "Pinnochio",                     [0,0,0,1,0,0,0,0,0,0,0,0], "StJABlm.png"],
    [1, "Silent Girl",                   [0,0,0,1,0,0,0,0,0,0,0,0], "4JiEZjf.png"],
@@ -357,6 +358,7 @@ var ary_CharacterData = [
    [1, "Saude",                         [0,0,0,0,0,0,1,0,0,0,0,0], "wkgWXRx.png"],
    [1, "Kromer",                        [0,0,0,0,0,0,1,0,0,0,0,0], "KWpX3aA.png"],
    [1, "Guido",                         [0,0,0,0,0,0,1,0,0,0,0,0], "QppmGDf.png"],
+   [1, "Papa Bongy",                    [0,0,0,0,0,0,1,0,0,0,0,0], "U1T9hOb.png"],
    [1, "Hermann",                       [0,0,0,0,0,0,1,0,0,0,0,0], "FehTuOH.png"],
    [1, "Gubo",                          [0,0,0,0,0,0,1,0,0,0,0,0], "8x970F0.png"],
    [1, "Jia Huan",                      [0,0,0,0,0,0,1,0,0,0,0,0], "CS4x4cM.png"],
@@ -436,7 +438,7 @@ var ary_CharacterData = [
    [1, "Rikako",                        [0,0,0,0,0,0,0,0,0,1,0,0], "xBK8FYw.png"],
    [1, "Jumsoon",                       [0,0,0,0,0,0,0,0,0,1,0,0], "h9ngHCv.png"],
    [1, "Pablo",                         [0,0,0,0,0,0,0,0,0,1,0,0], "TuQ7VaS.png"],
-   // (no image atm) [1, "Aseah",                         [0,0,0,0,0,0,0,0,0,1,0,0], ""],
+   [1, "Aseah",                         [0,0,0,0,0,0,1,0,0,1,0,0], "ISKdFRx.png"],
    //Artbook Characters
    [1, "Jeremy",                        [0,0,0,0,0,0,0,0,0,0,1,0], "o6UkWW1.png"],
    [1, "Norinori",                      [0,0,0,0,0,0,0,0,0,0,1,0], "8d15bTn.png"],

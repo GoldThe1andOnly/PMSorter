@@ -378,7 +378,7 @@ var ary_CharacterData = [
    [1, "Panther",                       [0,0,0,0,0,0,1,0,0,0,0,0], "tD8jdjp.png"],
    [1, "Lion",                          [0,0,0,0,0,0,1,0,0,0,0,0], "cT6asRM.png"],
    [1, "Wolf",                          [0,0,0,0,0,0,1,0,0,0,0,0], "9d6LxmZ.png"],
-   [1, "Aeng-Du",                       [0,0,0,0,0,0,1,0,0,0,1,0], "gF9dapQ"],
+   [1, "Aeng-Du",                       [0,0,0,0,0,0,1,0,0,0,1,0], "ElziytH.png"],
    //Limbus Company Abnormalities
    [1, "Ebony Queen's Apple",           [0,0,0,0,0,0,0,1,0,0,0,0], "Q0h5WUx.png"],
    [1, "Pink Shoes",                    [0,0,0,0,0,0,0,1,0,0,0,0], "S9PU6I5.png"],

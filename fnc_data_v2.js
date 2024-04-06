@@ -378,6 +378,7 @@ var ary_CharacterData = [
    [1, "Panther",                       [0,0,0,0,0,0,1,0,0,0,0,0], "tD8jdjp.png"],
    [1, "Lion",                          [0,0,0,0,0,0,1,0,0,0,0,0], "cT6asRM.png"],
    [1, "Wolf",                          [0,0,0,0,0,0,1,0,0,0,0,0], "9d6LxmZ.png"],
+   [1, "Aeng-Du",                       [0,0,0,0,0,0,1,0,0,0,1,0], "gF9dapQ"],
    //Limbus Company Abnormalities
    [1, "Ebony Queen's Apple",           [0,0,0,0,0,0,0,1,0,0,0,0], "Q0h5WUx.png"],
    [1, "Pink Shoes",                    [0,0,0,0,0,0,0,1,0,0,0,0], "S9PU6I5.png"],
@@ -487,8 +488,7 @@ var ary_CharacterData = [
    [1, "Summer Deity",                  [0,0,0,0,0,0,0,0,0,0,1,0], "1rx1l4c.png"],
    [1, "Spring Deity",                  [0,0,0,0,0,0,0,0,0,0,1,0], "4FRUXGs.png"],
    [1, "Jangsan Tiger",                 [0,0,0,0,0,0,0,0,0,0,1,0], "neRmUaN.png"],
-   [1, "Blade Lineage Member 1",        [0,0,0,0,0,0,0,0,0,0,1,0], "Uiwiwth.png"],
-   [1, "Blade Lineage Member 2",        [0,0,0,0,0,0,0,0,0,0,1,0], "gF9dapQ.png"],
+   [1, "Unused Blade Lineage Member",   [0,0,0,0,0,0,0,0,0,0,1,0], "Uiwiwth.png"],
    //Betas and Fanmade
    [1, "BongBong",                      [0,0,0,0,0,0,0,0,0,0,0,1], "GetB065.png"],
    [1, "Poor Screenwriters Note",       [0,0,0,0,0,0,0,0,0,0,0,1], "h068rj2.png"],

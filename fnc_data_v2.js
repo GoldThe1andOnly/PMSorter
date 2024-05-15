@@ -480,7 +480,7 @@ var ary_CharacterData = [
    [1, "Broken Wings",                  [0,0,0,0,0,0,0,1,0,0,0,0], "kQ78K2A.png"],
    [1, "Cyclops",                       [0,0,0,0,0,0,0,1,0,0,0,0], "4Gj9D95.png"],
    [1, "Clockwork-Time Roly-Poly",      [0,0,0,0,0,0,0,1,0,0,0,0], "k9mQvuK.png"],
-   [1, "Explorer on a Bereaved Road",   [0,0,0,0,0,0,0,1,0,0,0,0], "IBvSw0j.png"],
+   [1, "Explorer on a Bereaved Road",   [0,0,0,0,0,0,0,1,0,0,0,0], "IA6KQC8.png"],
    [1, "Resident of Metropolaris",      [0,0,0,0,0,0,0,1,0,0,0,0], "pex82RV.png"],
    [1, "Sandolph",                      [0,0,0,0,0,0,0,1,0,0,0,0], "tzi31f0.png"],
    //Distortion Detective Characters

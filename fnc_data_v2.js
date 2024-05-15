@@ -375,6 +375,8 @@ var ary_CharacterData = [
    [1, "Marile",                        [0,0,0,0,0,0,1,0,0,0,0,0], "lrBjhXc.png"],
    [1, "Niko",                          [0,0,0,0,0,0,1,0,0,0,0,0], "lyLNcuI.png"],
    [1, "Alfonso",                       [0,0,0,0,0,0,1,0,0,0,0,0], "OFSOyea.png"],
+   [1, "Sang Yi",                       [0,0,0,0,0,0,1,0,0,0,0,0], "XCCtckW.png"],
+   [1, "Stephanette",                   [0,0,0,0,0,0,1,0,0,0,0,0], "ATG3q4G.png"],
    [1, "Panther",                       [0,0,0,0,0,0,1,0,0,0,0,0], "tD8jdjp.png"],
    [1, "Lion",                          [0,0,0,0,0,0,1,0,0,0,0,0], "cT6asRM.png"],
    [1, "Wolf",                          [0,0,0,0,0,0,1,0,0,0,0,0], "9d6LxmZ.png"],
@@ -400,7 +402,8 @@ var ary_CharacterData = [
    [1, "Hindley",                       [0,0,0,0,0,0,1,0,0,0,0,0], "aWdQW4f.png"],
    [1, "Linton",                        [0,0,0,0,0,0,1,0,0,0,0,0], "Sv0oi3I.png"],
    [1, "Catherine",                     [0,0,0,0,0,0,1,0,0,0,0,0], "PD99AQY.png"],
-   [1, "Dead Rabbits Boss",             [0,0,0,0,0,0,1,0,0,0,0,0], "vSNML0N.png"],
+   [1, "Erlking Heathcliff",            [0,0,0,0,0,0,1,0,0,0,0,0], "1H30oK4.png"],
+   [1, "Every Catherine",               [0,0,0,0,0,0,1,0,0,0,0,0], "TplW9b3.png"],
    //Limbus Company Abnormalities
    [1, "Ebony Queen's Apple",           [0,0,0,0,0,0,0,1,0,0,0,0], "Q0h5WUx.png"],
    [1, "Pink Shoes",                    [0,0,0,0,0,0,0,1,0,0,0,0], "S9PU6I5.png"],

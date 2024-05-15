@@ -534,5 +534,7 @@ var ary_CharacterData = [
    [1, "Hammer of Light",               [0,0,0,0,0,0,0,0,0,0,0,1], "mMjjOnv.png"],
    [1, "Yellow Zwei Crewmember",        [0,0,0,0,0,0,0,0,0,0,1,1], "HtDQDz2.png"],
    [1, "Orange Zwei Crewmember",        [0,0,0,0,0,0,0,0,0,0,1,1], "UbvRf0y.png"],
-   [1, "Grey Zwei Crewmember",          [0,0,0,0,0,0,0,0,0,0,1,1], "R6ScaBx.png"]
+   [1, "Grey Zwei Crewmember",          [0,0,0,0,0,0,0,0,0,0,1,1], "R6ScaBx.png"],
+   [1, "Matthew/Dead Rabbits Boss",     [0,0,0,0,0,0,1,0,0,0,0,1], "vSNML0N.png"],
+   [1, "Isabella",                      [0,0,0,0,0,0,1,0,0,0,0,1], "J1jE27O.png"],
 ];
